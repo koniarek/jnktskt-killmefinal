@@ -1,36 +1,38 @@
 .PageHeader {
-  background-color: var(--darkGrey);
-  color: white;
-  padding: 15rem 0;
+  background-color: black;
+  color: darkred;
+  padding: 3rem 0;
 }
 
-.PageHeader .BackgroundImage {
-  opacity: 0.8;
+.PageHeader .BackgroundColor {
+  opacity: 1;
+  background-color: #000000;
 }
 
-.PageHeader-large {
-  padding: 20rem 0;
+.PageHeader-medium {
+  padding: 3rem 0;
 }
 
 .PageHeader--Title {
-  font-size: 6rem;
+  font-size: 0rem;
   margin-bottom: 0;
 }
 
 .PageHeader--Subtitle {
-  font-weight: 400;
-  font-size: 1.8rem;
+  font-weight: normal;
+  font-size: 0rem;
+  color: transparent;
 }
 
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
 }
 
-@media (max-width: 600px) {
+@media (max-width:30px) {
   .PageHeader {
-    padding: 7rem 0;
+    padding: 3rem 0;
   }
-  .PageHeader-large {
-    padding: 12.5rem 0;
+  .PageHeader-medium {
+    padding: 1rem 0;
   }
 }
