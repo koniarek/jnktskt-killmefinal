@@ -1,18 +1,13 @@
 ---
 template: SinglePost
-title: Cat
+title: TNC/My dzieci z dworca zoo wy dzieci z bullerbyn/ prod.Dariusz Kurkiewicz/
 status: Published
-date: '2018-03-28'
-featuredImage: >-
-  https://ucarecdn.com/69bcae44-f555-4b56-b08e-bd0f2013654a/-/crop/1634x1690/0,434/-/preview/
-excerpt: This is an excerpt of Post Two
+date: 2019-09-27T22:00:00.000Z
+featuredImage: 'https://ucarecdn.com/ab43a172-70f9-47d3-93f6-909ac30c79b1/'
+excerpt: /my-dzieci-z dworca-zoo-wy-dzieci-z-bullerbyn/(official-video)/
 categories:
-  - category: Updates
-meta:
-  description: test meta description
-  title: test meta title
+  - category: News
 ---
+   /(Official video)/
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.
-
-This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-gKsTt6PrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
