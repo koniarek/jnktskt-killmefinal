@@ -11,8 +11,7 @@ const PostCategoriesNav = ({}) => <div className="PostCategoriesNav">
     className="NavLink"
     to='post-categories/news'>NEWS
   </Link>
-    <a href='https://merchpage.netlify.com'>MERCH</a>
-    <a href='https://sektapage.netlify.com'>JNKTSKT</a>
+    <a href='https://jnktskt.onuniverse.com/'>JNKTSKT SKLEP</a>
   <Logo2/>
 </div>
 
