@@ -1,19 +1,20 @@
 ---
 template: SinglePost
-title: Trees
+title: 09/11/2019/Bazar/Katowice
 status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/52b27af8-262d-4e2c-9773-15125ab8a5b2/'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+date: '2019-11-02'
+featuredImage: 'https://ucarecdn.com/fbd731e4-60c5-438d-ac32-f45a07f38cab/'
+excerpt: 09/11/2019/bazar/katowice
+categories:
+  - category: News
 meta:
-  description: test meta description
-  title: test meta title
+  description: koncert/bazar/katowice
+  title: 09/11/2019/
 ---
+  
+Kolejny koncert TNC, tym razem Katowicach. TNC wystąpi razem z Bartuś 419 i Tonfa na wydarzeniu z serii Bazar.pres.
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+Na bramce jak zwykle maski i zapalniczki, merch prawdopodobnie też.
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CAf--SiIOEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
