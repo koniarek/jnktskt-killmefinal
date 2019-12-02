@@ -1,11 +1,14 @@
 :root {
-  --primary: #00c2bd;
-  --secondary: #000;
-  --lightGrey: whitesmoke;
-  --midGrey: #cacaca;
-  --darkGrey: #272727;
+  --primary: #882221;
+  --secondary: #ddd9d9;
+  --lightWhite: #ffffff;
+  --lightGrey: rgba(123, 24, 80, 0.36);
+  --midGrey: #423B3E;
+  --darkGrey: #1A1F20;
+  --darkBlack: #000000;
+  --tncLean: #891c50;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
+  --font-primary: "Trebuchet MS", Helvetica, sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
@@ -15,30 +18,31 @@
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 3px var(--grey);
+  --webkit-box-shadow: inset 0 0 3px var(--secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
+  background-color: var(--tncLean);
 }
 
 ::selection {
-  background: rgba(0, 194, 189, 0.6);
+  background: rgba(123, 24, 80, 0.49);
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background: var(--darkBlack);
 }
 
 body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
-  color: var(--secondary);
+  background: #000000;
+  color: var(--lightWhite);
+  border-left: 2px solid var(--tncLean);
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -47,8 +51,8 @@ body {
 }
 
 a {
-  color: var(--primary);
-}
+  color: var(--lightWhite);
+  }
 
 strong {
   font-weight: 600;
@@ -70,7 +74,7 @@ h6 {
 }
 
 pre {
-  background: var(--lightGrey);
+  background: var(--darkBlack);
   line-height: 1.45;
   font-size: 85%;
   border-radius: 3px;
@@ -80,7 +84,7 @@ pre {
 code {
   font-size: 85%;
   padding: 0.15em 0;
-  background: var(--lightGrey);
+  background: var(--darkBlack);
   border-radius: 3px;
 }
 code:before,
@@ -101,12 +105,12 @@ blockquote {
   line-height: 1.1;
   font-size: 1em;
   font-style: italic;
-  border-left: 2px solid var(--primary);
+  border-left: 2px solid var(--tncLean);
 }
 
 /* Utility Classes */
 .light {
-  background-color: var(--lightGrey);
+  background-color: var(--lightWhite);
 }
 .white {
   background-color: white;
@@ -155,7 +159,7 @@ blockquote {
 .section {
   width: 100%;
   padding: 5rem 0;
-  border-bottom: 1px solid #f1f1f1;
+
 }
 .section:last-child {
   border: 0;
@@ -170,7 +174,7 @@ blockquote {
   padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .section {
     width: 100%;
     padding: 5rem 0;
@@ -198,8 +202,8 @@ blockquote {
 /* Buttons */
 
 .Button {
-  background: var(--primary);
-  color: white;
+  background: var(--tncLean);
+  color: var(--lightWhite);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -207,8 +211,7 @@ blockquote {
   font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;
-  border: none;
-  transition: all 0.2s ease;
+  border-left: 2px solid var(--primary);  transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);
 }
@@ -228,7 +231,6 @@ blockquote {
   outline: none;
   border: none;
   cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
