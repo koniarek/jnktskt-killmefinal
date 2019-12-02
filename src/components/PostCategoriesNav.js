@@ -1,27 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import BlogSearch from './BlogSearch'
 import './PostCategoriesNav.css'
+import Logo from './Logo'
+import Logo2 from './Logo2'
 
-const PostCategoriesNav = ({ categories, enableSearch }) => (
-  <div className="PostCategoriesNav">
-    <Link className="NavLink" exact="true" to={`/blog/`}>
-      All
-    </Link>
-    {categories.map((category, index) => (
-      <Link
-        exact="true"
-        className="NavLink"
-        key={category.title + index}
-        to={category.slug}
-      >
-        {category.title}
-      </Link>
-    ))}
-
-    {enableSearch && <BlogSearch />}
-  </div>
-)
+/* eslint-disable */
+const PostCategoriesNav = ({}) => <div className="PostCategoriesNav">
+  <Logo/>
+  <Link
+    className="NavLink"
+    to='post-categories/news'>NEWS
+  </Link>
+    <a href='https://merchpage.netlify.com'>MERCH</a>
+    <a href='https://sektapage.netlify.com'>JNKTSKT</a>
+  <Logo2/>
+</div>
 
 export default PostCategoriesNav
