@@ -3,7 +3,6 @@ import './Layout.js'
 import './Footer.css'
 import styled from '@emotion/styled'
 import { FaCopyright } from 'react-icons/fa'
-import Socials from './Socials'
 
 const FooterWrap = styled.div`
     background: black;
@@ -20,9 +19,6 @@ const SocialWrap = styled.div`
 
 const Footer = () => (
 	<FooterWrap>
-		<SocialWrap>
-			<Socials />
-		</SocialWrap>
 		<span>| millennium | 51 1160 2202 0000 0002 6070 5913 | tedoendoce | junkierap | sekta |</span>
 		<p>
 			<FaCopyright /> Copyright {new Date().getFullYear()}. junkierap.pl | All rights reserved. Developed by{' '}
