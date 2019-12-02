@@ -11,6 +11,10 @@ const PostCategoriesNav = ({}) => <div className="PostCategoriesNav">
     className="NavLink"
     to='post-categories/news'>NEWS
   </Link>
+    <Link
+    className="NavLink"
+    to='pages/components'>JNKTSKT
+  </Link>
     <a href='https://jnktskt.onuniverse.com/'>JNKTSKT SKLEP</a>
   <Logo2/>
 </div>
