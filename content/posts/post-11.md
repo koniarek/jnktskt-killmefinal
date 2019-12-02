@@ -1,19 +1,13 @@
 ---
 template: SinglePost
-title: Yellow Van
+title: TNC/ chcę żebyś lizała moje łzy/prod.Eigus/
 status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
-meta:
-  description: test meta description
-  title: test meta title
+date: 2019-09-29T22:00:00.000Z
+featuredImage: 'https://ucarecdn.com/1c44fdaf-6762-4046-9123-c50c994d5847/'
+excerpt: TNC/chce-zebys-lizala-moje-lzy/prod.Eigus/
+categories:
+  - category: News
 ---
+   /(Official video)/
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
-
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CCYT3zH1ia4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
