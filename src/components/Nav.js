@@ -37,12 +37,6 @@ export default class Nav extends Component {
 						<NavLink to="/" exact>
 							News
 						</NavLink>
-						<NavLink href="https://merchpage.netlify.com" exact>
-							Merch
-						</NavLink>
-						<NavLink href="https://sektapage.netlify.com" exact>
-							Jntskt
-						</NavLink>
 					</div>
 					<Logo2 />
 				</div>
